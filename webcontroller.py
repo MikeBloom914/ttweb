@@ -84,7 +84,7 @@ def portfolio():
 def pl():
         x = model.pl1()
         return render_template('pl.html',message = x)
-  
+
 
 
 if __name__ == '__main__':
