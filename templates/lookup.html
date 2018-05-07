@@ -1,8 +1,8 @@
 {% extends "homepage.html" %}
 {% block main %}
 		<h5> Please enter the name of the company you want to lookup and hit submit </h5>
-		<form action = "/lookup" method = "post"> 
-			<input name = "coname" placeholder = "Company Name" type="text">
+		<form action = "/lookup" method = "post">
+			<input name = "coname" placeholder = "Enter Symbol" type="text">
 			<input type = "submit">
 		</form>
 		<p>{{ message }}</p>
