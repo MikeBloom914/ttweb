@@ -82,7 +82,7 @@ def portfolio():
 
 @app.route('/pl', methods=['GET'])
 def pl():
-    x = model.pl1()
+    x = model.pl()
     return render_template('pl.html', message=x)
 
 
