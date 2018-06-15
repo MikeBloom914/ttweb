@@ -188,7 +188,7 @@ def pl():
     finpl = pl - pl2
 
     if float(finpl) == float(0):
-        return 0
+        return 'Your p/l is flat'
     else:
         return round(finpl, 2)
 
